@@ -54,22 +54,10 @@ ul{margin:0}
 .platforms{margin-top:28px;font-size:15px;color:#55606E;max-width:36em}
 @media (max-width:900px){.hero{grid-template-columns:1fr;gap:48px;padding-top:56px;padding-bottom:64px}}
 
-/* Learner record panel (hero visual) */
-.records{margin:0;background:#fff;border:1px solid #D9DED8;border-radius:12px;box-shadow:0 1px 0 #D9DED8,0 24px 48px -24px rgba(27,36,48,.18);overflow:hidden}
-.records-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:18px 22px;border-bottom:1px solid #E6EAE5}
-.records-head h2{font-size:16px;font-weight:600}
-.records-head span{font-size:13px;color:#55606E}
-.records table{width:100%;border-collapse:collapse;font-size:15px}
-.records th{text-align:left;font-weight:500;font-size:13px;color:#55606E;padding:10px 18px;background:#FAFBF9;border-bottom:1px solid #E6EAE5}
-.records td{padding:12px 18px;border-bottom:1px solid #EEF1ED;vertical-align:middle;white-space:nowrap}
-.records td:last-child{white-space:normal}
-.records tr:last-child td{border-bottom:0}
-.status{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;padding:3px 10px;border-radius:999px;white-space:nowrap}
-.status.done{background:#E3F2E9;color:#155B37}
-.status.was{background:transparent;color:#9A6512;text-decoration:line-through;font-weight:500;padding:0 4px 0 0}
-.records-foot{display:flex;align-items:center;gap:10px;padding:14px 22px;background:#F2F7F3;border-top:1px solid #E6EAE5;font-size:14px;color:#155B37;font-weight:500}
-.records-foot svg{flex:none}
-@media (max-width:520px){.records th:nth-child(2),.records td:nth-child(2){display:none}.records td,.records th{padding-left:16px;padding-right:16px}}
+/* Hero illustration */
+.hero-visual{min-width:0}
+.hero-art{width:100%;height:auto;font-family:"IBM Plex Sans",system-ui,sans-serif}
+@media (max-width:900px){.hero-visual{max-width:560px}}
 
 /* Sections */
 .section{padding:96px 0;border-top:1px solid #D9DED8}
