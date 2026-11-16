@@ -1,0 +1,64 @@
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#F7F8FA;color:#0F172A;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55}
+a{color:#0F766E}a:hover{color:#115E59}
+h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;margin:0;line-height:1.2}
+p{margin:0}
+:focus-visible{outline:3px solid #0F766E;outline-offset:2px;border-radius:6px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.band{background:#fff;border-top:1px solid #E2E8F0;border-bottom:1px solid #E2E8F0}
+section{padding:72px 0;scroll-margin-top:16px}
+.muted{color:#475569}
+.small{font-size:14px}
+.btn{display:inline-block;background:#0F766E;color:#fff;text-decoration:none;font-weight:600;padding:14px 22px;border-radius:10px;text-align:center;border:1px solid #0F766E}
+.btn:hover{background:#115E59;border-color:#115E59;color:#fff}
+.btn.ghost{background:#fff;color:#0F172A;border:1px solid #CBD5E1}
+.btn.ghost:hover{background:#F1F5F9;color:#0F172A}
+.btn.block{display:block;width:100%}
+.row{display:flex;flex-wrap:wrap;gap:20px}
+.card{flex:1 1 240px;min-width:0;background:#fff;border:1px solid #E2E8F0;border-radius:14px;padding:22px}
+.eyebrow{font-size:14px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#0F766E}
+.h2{font-size:34px;font-weight:600;margin-bottom:12px}
+.sub{font-size:17px;color:#475569;margin-bottom:28px;max-width:720px}
+header{background:#fff;border-bottom:1px solid #E2E8F0}
+nav{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 16px;padding:14px 0}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:#0F172A;font-family:"Space Grotesk",Inter,sans-serif;font-weight:700;font-size:20px}
+.links{display:flex;flex-wrap:wrap;align-items:center;gap:4px 18px;font-size:15px}
+.links a{color:#334155;text-decoration:none;padding:10px 0}
+.links a:hover{color:#0F766E}
+.links a.btn{color:#fff;padding:11px 18px}
+.hero{display:flex;flex-wrap:wrap;gap:48px;align-items:center;padding-top:80px;padding-bottom:64px}
+.hero-text{flex:999 1 520px;min-width:0;display:flex;flex-direction:column;gap:22px}
+.hero h1{font-size:clamp(40px,6vw,58px);line-height:1.05}
+.lead{font-size:19px;color:#334155;max-width:580px}
+ul.check{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px}
+.plan{flex:1 1 300px;display:flex;flex-direction:column;gap:14px;padding:28px}
+.plan .grow{flex:1}
+.plan.best{border:2px solid #0F766E}
+.price{font-family:"Space Grotesk",Inter,sans-serif;font-size:40px;font-weight:700}
+.pill{background:#CCFBF1;color:#115E59;font-size:13px;font-weight:600;padding:4px 10px;border-radius:999px;white-space:nowrap}
+.chip{background:#fff;border:1px solid #CBD5E1;border-radius:999px;padding:8px 16px;font-size:15px;font-weight:500}
+.num{font-family:"Space Grotesk",Inter,sans-serif;font-size:28px;font-weight:700;color:#0F766E}
+ol.steps{list-style:none;margin:0;padding:0}
+.step{flex:1 1 230px;min-width:0}
+.icon{width:40px;height:40px;border-radius:10px;background:#F0FDFA;color:#0F766E;display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+.avatar{flex:0 0 56px;width:56px;height:56px;border-radius:50%;background:#CCFBF1;color:#115E59;display:flex;align-items:center;justify-content:center;font-family:"Space Grotesk",Inter,sans-serif;font-weight:700;font-size:20px}
+.note{background:#F0FDFA;border:1px solid #99F6E4;border-radius:14px;padding:18px 20px}
+details{background:#fff;border:1px solid #E2E8F0;border-radius:12px;padding:0 20px}
+details+details{margin-top:12px}
+summary{cursor:pointer;font-weight:600;padding:18px 0;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:#0F766E;font-size:22px;line-height:1}
+details[open] summary::after{content:"–"}
+details p{padding:0 0 18px;color:#334155}
+footer{border-top:1px solid #E2E8F0;background:#fff}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;padding:24px;font-size:14px;color:#475569}
+footer a{color:#475569}
+.legal{max-width:760px;margin:0 auto;padding:56px 24px 80px}
+.legal h1{font-size:40px;margin-bottom:8px}
+.legal h2{font-size:22px;margin:32px 0 10px}
+.legal p,.legal li{color:#334155}
+.legal p+p{margin-top:12px}
+.legal ul{padding-left:20px}
+.legal li+li{margin-top:6px}
+@media (max-width:600px){section{padding:56px 0}.h2{font-size:28px}.hero{padding-top:48px}}
